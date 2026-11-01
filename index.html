@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maak — Security Tooling</title>
+<meta name="description" content="Maak builds security tooling and secure web front-ends — MCP configs, lockfiles, cryptography, firewall rules, incident drills and AI-agent memory forensics.">
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/syne-latin-wght-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/jetbrains-mono-latin-400-normal.woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0f10'/%3E%3Cpath d='M8 23V9l8 6 8-6v14' fill='none' stroke='%23ffb24d' stroke-width='2.4' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="bg-glow" aria-hidden="true"></div>
+<div class="bg-grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="logo" href="#top">MAAK<i>·sec</i></a>
+  <nav aria-label="Primary"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <a class="nav-status" href="mailto:m11k.08k3@gmail.com"><span></span>Open to work</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow"><span class="pip"></span><span id="roleline"></span></p>
+      <h1 class="hero-title"><span class="line">Security</span><span class="line">tooling, with</span><span class="line accent">a sharp eye.</span></h1>
+      <p class="hero-lede" id="lede"></p>
+      <div class="hero-cta"><a class="btn primary" href="#work">See the work</a><a class="btn ghost" href="#contact">Contact</a></div>
+      <ul class="chips" id="chips"></ul>
+    </div>
+    <div class="hero-stage" aria-hidden="true"><div class="stage-ring"></div><div class="stage-ring r2"></div></div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="sec-head"><span class="sec-no">01</span><h2>Selected work</h2><p id="wkNote"></p></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="sec-head"><span class="sec-no">02</span><h2>About</h2></div>
+    <div class="about-grid">
+      <p class="about-lead" id="aboutLead"></p>
+      <div class="about-body">
+        <p id="aboutBody"></p>
+        <div class="about-cols">
+          <div><h4>Focus</h4><ul id="interests"></ul></div>
+          <div><h4>Background</h4><ul id="education"></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="sec-head"><span class="sec-no">03</span><h2>Contact</h2></div>
+    <a class="contact-mail" id="mailBig" href="#"></a>
+    <div class="contact-row"><a id="ghLink" href="#" target="_blank" rel="noopener">GitHub ↗</a><span id="loc"></span></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>MAAK — security tooling &amp; secure web</span><span id="year"></span><a href="#top">Top ↑</a>
+</footer>
+
+<!-- ============ the little AI companion ============ -->
+<div class="companion" id="companion" role="img" aria-label="Pixel, a small animated guide">
+  <div class="bubble" id="bubble" aria-hidden="true"></div>
+  <button class="bot-btn" id="botBtn" type="button" aria-label="Say hi to Pixel">
+    <svg class="bot" viewBox="0 0 120 150" width="92" height="115">
+      <ellipse class="shadow" cx="60" cy="140" rx="30" ry="6"></ellipse>
+      <g class="float" id="botFloat">
+        <line class="antenna" x1="60" y1="22" x2="60" y2="7"></line>
+        <circle class="tip" cx="60" cy="6" r="5"></circle>
+        <rect class="body" x="18" y="22" width="84" height="88" rx="26"></rect>
+        <rect class="face" x="30" y="40" width="60" height="48" rx="18"></rect>
+        <g class="eyes" id="eyes">
+          <g class="eye"><circle class="pupil" cx="46" cy="64" r="7"></circle></g>
+          <g class="eye"><circle class="pupil" cx="74" cy="64" r="7"></circle></g>
+        </g>
+        <path class="mouth" d="M50 80 Q60 86 70 80"></path>
+        <rect class="arm l" x="10" y="64" width="10" height="26" rx="5"></rect>
+        <rect class="arm r" x="100" y="64" width="10" height="26" rx="5"></rect>
+      </g>
+    </svg>
+  </button>
+</div>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
